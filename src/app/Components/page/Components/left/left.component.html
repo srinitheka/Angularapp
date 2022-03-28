@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+	
+	
+
+</style>
+</head>
+<body>
+	<form action="action.php">
+		<h1>Register Form</h1>
+		<hr>
+		
+		<label for="fname"><b>First Name</b></label>
+		<input type="text" placeholder="Enter Your Name" id="fname" name="fname" required value='' [(ngModel)]="inpObj.fname"><br>
+
+        <label for="lname"><b>Last Name</b></label>
+		<input type="text" placeholder="Enter Your Name" id="lname" name="lname" required value='' [(ngModel)]="inpObj.lname"><br>
+		
+		<label for="number"><b>Contact No.</b></label>
+		<input type="text" placeholder="Enter Your Contact No." id="number" name="number" required value='' [(ngModel)]="inpObj.number"><br>
+		
+		<label for="email"><b>Email</b></label> 
+		<input type="text" placeholder="Enter Your E-mail" id="Email" name="email" required value='' [(ngModel)]="inpObj.email"><br>
+
+		<hr>
+	
+		<button type="submit" value="Submit" class="btn-submit" (click)="showResult()">Submit</button>
+		
+  
+		
+		
+	</form>
+
+
+</body>
+</html>
